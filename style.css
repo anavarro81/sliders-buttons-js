@@ -1,0 +1,27 @@
+/* En el componente padre, overflow: hidden */
+/* Si el contenido sobrepasa el tamaño el padre, no se muestra */
+/* Solo se muestra una imagen */ 
+
+.slider {
+    overflow: hidden;
+}
+
+.slider-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;  /* Muestra todas las imagenes en la misma fila */
+}
+
+/* Las imagenes ocupan el ancho del contenedor */
+img {
+    width: 100%;
+}
+
+button {
+    border-radius: 50%;
+    border: 1px solid grey;
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+}
